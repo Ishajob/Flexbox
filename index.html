@@ -1,0 +1,60 @@
+<!-- 
+ nav.nav-bar>.container>.logo+ul>li*3>a^^^^^^^^header>.container>h1+p+img^^^^section.boxes>.container>.box*3>h2+p  
+-->
+
+<!-- or -->
+
+<!-- 
+nav.nav-bar>.container>(.logo+ul>li*3>a)
++header>.container>(h1+p+img)
++section.boxes>.container>.box*3>(h2+p)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav-bar">
+    <div class="container">
+      <div class="logo">FLEXBOX</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+     <div>
+      <h1>Flexbox Crash Course</h1>
+      <p>This property goes on the Container div/element. We can assign it along with the flex- direction: row / column . Row we can assign the elements horizontally on the page and column where we can assign elements vertically.</p>
+     </div>
+      <img src="https://images.unsplash.com/photo-1677419734433-2420e3bf1093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDk1fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60.">
+     
+    </div>
+  </header>
+  <section class="boxes">
+    <div class="container">
+      <div class="box">
+        <h2> Allignment and space</h2>
+        <p>We use it to wrap or nowrap the elements. If we make the browser window small should they go down to the next line or not.</p>
+      </div>
+      <div class="box">
+        <h2> Allignment and space</h2>
+        <p>We use it to wrap or nowrap the elements. If we make the browser window small should they go down to the next line or not.</p>
+      </div>
+      <div class="box">
+        <h2> Allignment and space</h2>
+        <p>We use it to wrap or nowrap the elements. If we make the browser window small should they go down to the next line or not.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+<!-- Credits: https://unsplash.com/ -->
